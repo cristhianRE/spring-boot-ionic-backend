@@ -18,7 +18,6 @@ import com.cristhian.cursomc.domain.Endereco;
 import com.cristhian.cursomc.domain.enums.TipoCliente;
 import com.cristhian.cursomc.dto.ClienteDTO;
 import com.cristhian.cursomc.dto.ClienteNewDTO;
-import com.cristhian.cursomc.repositories.CidadeRepository;
 import com.cristhian.cursomc.repositories.ClienteRepository;
 import com.cristhian.cursomc.repositories.EnderecoRepository;
 import com.cristhian.cursomc.services.exceptions.DataIntegrityException;
