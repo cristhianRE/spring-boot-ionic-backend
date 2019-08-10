@@ -13,7 +13,6 @@ import com.cristhian.cursomc.domain.enums.EstadoPagamento;
 import com.cristhian.cursomc.repositories.ItemPedidoRepository;
 import com.cristhian.cursomc.repositories.PagamentoRepository;
 import com.cristhian.cursomc.repositories.PedidoRepository;
-import com.cristhian.cursomc.repositories.ProdutoRepository;
 import com.cristhian.cursomc.services.exceptions.ObjectNotFoundException;
 
 @Service
@@ -27,9 +26,6 @@ public class PedidoService {
 	
 	@Autowired
 	private PagamentoRepository pagamentoRepository;
-	
-	@Autowired
-	private ProdutoRepository produtoRepository;
 	
 	@Autowired
 	private ProdutoService produtoService;
